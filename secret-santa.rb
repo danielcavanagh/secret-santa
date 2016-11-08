@@ -1,6 +1,7 @@
 #!/bin/env ruby
 # encoding: utf-8
 
+require 'date'
 require 'gmail'
 require 'json'
 
@@ -50,7 +51,7 @@ if not options[:pair]
     pairings.each do |pair|
       gmail.deliver do
         to options[:test] ? 'danielcavanagh85@gmail.com' : pair.dig(:from, :email)
-        subject 'Secret Santa 2016 for ' + pair.dig(:from, :name) + ' (NO PEEKING, PARTNERS)'
+        subject 'Secret Santa ' + DateTime.now.year.to_s + ' for ' + pair.dig(:from, :name) + ' (NO PEEKING, PARTNERS)'
         html_part do
           content_type 'text/html; charset=UTF-8'
           body '<p>This year you are secret santa for <strong>' + pair.dig(:to, :name) + '</strong>.</p>' +
