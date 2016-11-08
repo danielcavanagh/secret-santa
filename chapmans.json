@@ -1,0 +1,41 @@
+[{
+    "email": "danielcavanagh85@gmail.com",
+    "name": "Daniel Cavanagh",
+    "exclusions": ["tegan.cavanagh@gmail.com"]
+}, {
+    "email": "tegan.cavanagh@gmail.com",
+    "name": "Tegan Cavanagh",
+    "exclusions": ["danielcavanagh85@gmail.com"]
+}, {
+    "email": "denbighchapman@hotmail.com",
+    "name": "Denbigh Chapman",
+    "exclusions": ["zach-garner@hotmail.com"]
+}, {
+    "email": "zach-garner@hotmail.com",
+    "name": "Zach Garner",
+    "exclusions": ["denbighchapman@hotmail.com"]
+}, {
+    "email": "allchap5@bigpond.com",
+    "name": "Penny Chapman",
+    "exclusions": ["allistair_chapman@cargill.com"]
+}, {
+    "email": "allistair_chapman@cargill.com",
+    "name": "Allistair Chapman",
+    "exclusions": ["allchap5@bigpond.com"]
+}, {
+    "email": "sam.434@live.com.au",
+    "name": "Sam Burgess",
+    "exclusions": ["rhiannon_dee90@hotmail.com"]
+}, {
+    "email": "rhiannon_dee90@hotmail.com",
+    "name": "Rhiannon Chapman",
+    "exclusions": ["sam.434@live.com.au"]
+}, {
+    "email": "lil_chapo_87@hotmail.com",
+    "name": "Chris Chapman",
+    "exclusions": ["pink_angel1986@live.com"]
+}, {
+    "email": "pink_angel1986@live.com",
+    "name": "Kelly Frost",
+    "exclusions": ["lil_chapo_87@hotmail.com"]
+}]

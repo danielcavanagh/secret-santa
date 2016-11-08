@@ -1,0 +1,29 @@
+[{
+    "email": "danielcavanagh85@gmail.com",
+    "name": "Daniel Cavanagh",
+    "exclusions": ["tegan.cavanagh@gmail.com"]
+}, {
+    "email": "tegan.cavanagh@gmail.com",
+    "name": "Tegan Cavanagh",
+    "exclusions": ["danielcavanagh85@gmail.com"]
+}, {
+    "email": "thecavanaghs@live.com",
+    "name": "Bree Cavanagh",
+    "exclusions": ["ryan_ayre@hotmail.com"]
+}, {
+    "email": "ryan_ayre@hotmail.com",
+    "name": "Ryan Ayre",
+    "exclusions": ["thecavanaghs@live.com"]
+}, {
+    "email": "re.cavanagh@hotmail.com",
+    "name": "Romy Cavanagh",
+    "exclusions": []
+}, {
+    "email": "ritacavanagh@dodo.com.au",
+    "name": "Rita Cavanagh",
+    "exclusions": []
+}, {
+    "email": "mikecavanagh@aanet.com.au",
+    "name": "Michael Cavanagh",
+    "exclusions": []
+}]
