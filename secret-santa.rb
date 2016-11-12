@@ -29,12 +29,14 @@ options = {
   test: false
 }
 
-while ARGV.first[0] == '-'
+while not ARGV.empty? and ARGV.first[0] == '-'
   case ARGV.shift
   when '-p' then options[:pair] = true
   when '-t' then options[:test] = true
   end
 end
+
+exit if ARGV.empty?
 
 data = File.open(ARGV.first).read()
 santas = JSON.parse(data, symbolize_names: true)
