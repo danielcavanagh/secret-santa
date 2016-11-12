@@ -47,10 +47,10 @@ else puts 'paired'
 end
 
 if not options[:pair]
-  Gmail.new('danielcavanagh85@gmail.com', '8KLa7gYn1') do |gmail|
+  Gmail.new(ENV['gmail_username'], ENV['gmail_password']) do |gmail|
     pairings.each do |pair|
       gmail.deliver do
-        to options[:test] ? 'danielcavanagh85@gmail.com' : pair.dig(:from, :email)
+        to options[:test] ? ENV['gmail_username'] : pair.dig(:from, :email)
         subject 'Secret Santa ' + DateTime.now.year.to_s + ' for ' + pair.dig(:from, :name) + ' (NO PEEKING, PARTNERS)'
         html_part do
           content_type 'text/html; charset=UTF-8'
